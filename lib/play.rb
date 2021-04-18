@@ -35,6 +35,13 @@ def turn(board)
   end
 end
 
+def play(board)
+ turn=0
+ until turn == 9
+   turn(board)
+   turn+=1
+ end
+ end
 
 
  def play(board)
